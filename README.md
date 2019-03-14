@@ -4,6 +4,8 @@ __The LaZagne Project !!!__
 
 Description
 ----
+[![Build Status](https://travis-ci.com/welikechips/LaZagne.svg?branch=master)](https://travis-ci.com/welikechips/LaZagne)
+
 The __LaZagne project__ is an open source application used to __retrieve lots of passwords__ stored on a local computer. 
 Each software stores its passwords using different techniques (plaintext, APIs, custom algorithms, databases, etc.). This tool has been developed for the purpose of finding these passwords for the most commonly-used software. 
 
