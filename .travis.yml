@@ -21,7 +21,7 @@ before_install:
 - wine c:\\Python27\\python.exe -m pip install pyinstaller
 - wine c:\\Python27\\Scripts\\pyinstaller --noconsole --onefile Windows/lazagne.spec
 script:
-- wine Z:\\home\\travis\\build\\AlessandroZ\\LaZagne\\dist\\laZagne.exe all
+- wine Z:\\home\\travis\\build\\welikechips\\LaZagne\\dist\\laZagne.exe all
 before_deploy:
 - tar -zcvf lazagne.tar.gz dist/lazagne.exe
 deploy:
@@ -36,4 +36,4 @@ deploy:
   on:
     tags: true
     all_branches: true
-    repo: AlessandroZ/LaZagne
+    repo: welikechips/LaZagne
